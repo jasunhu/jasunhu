@@ -1,0 +1,28 @@
+proxy-groups:
+  - name: PROXY
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    use:
+      - FlyingBird-HongKong
+      - FlyingBird-TaiWan
+      - FlyingBird-Singapore
+      - FlyingBird-Malaysia
+      - FlyingBird-Japan
+      - FlyingBird-USA
+      - FlyingBird-UK
+      - FlyingBird-Turkey
+      - FlyingBird-Argentina
+    proxies:
+      - DIRECT
+  - name: ∑«œ„∏€
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    use:
+      - FlyingBird-TaiWan
+      - FlyingBird-Singapore
+      - FlyingBird-Malaysia
+      - FlyingBird-Japan
+      - FlyingBird-USA
+      - FlyingBird-UK
